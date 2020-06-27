@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="default" extends="struts-default">
+        <interceptors>
+            <interceptor name="BookInterceptor" class="action.BookInterceptor"></interceptor>
+        </interceptors>
+
+        <action name="login" class="action.UserAction" method="login">
+            <result name="success">/main.jsp</result>
+            <result name="error">/login_Error.jsp</result>
+            <result name="success1">ordinary.jsp</result>
+            <result name="input" type="dispatcher">
+                <param name="location">/login.jsp</param>
+            </result>
+        </action>
+        <action name="add" class="action.BookAction" method="addBook">
+            <result name="success">/addBookSuccess.jsp</result>
+            <result name="error">/addBookError.jsp</result>
+            <interceptor-ref name="defaultStack"></interceptor-ref>
+            <interceptor-ref name="BookInterceptor"></interceptor-ref>
+        </action>
+        <action name="readBookIntroByReader" class="action.LendAction" method="readBookIntro">
+            <result name="success">/readBookIntro.jsp</result>
+        </action>
+        <action name="lendedList" class="action.LendAction" method="lendedList">
+            <result name="success">lendedBook.jsp</result>
+        </action>
+        <action name="returnBook" class="action.LendAction" method="returnBook">
+            <result name="success">/lendedBook.jsp</result>
+        </action>
+        <action name="lend" class="action.LendAction" method="lend">
+            <result name="success">/lendedBook.jsp</result>
+            <result name="error">error.jsp</result>
+        </action>
+        <action name="find" class="action.BookAction" method="findBook">
+            <result name="success">/findBookSuccess.jsp</result>
+            <result name="error">/findBookError.jsp</result>
+        </action>
+        <action name="list" class="action.BookAction" method="list">
+            <result name="success">/listBook.jsp</result>
+            <result name="error">/listBookError.jsp</result>
+        </action>
+        <action name="delete" class="action.BookAction" method="delete">
+            <result name="success">/listBook.jsp</result>
+            <result name="error">/deleteBookError.jsp</result>
+        </action>
+        <action name="update" class="action.BookAction" method="updateBook">
+            <result name="success">/update.jsp</result>
+            <result name="error">/updateError.jsp</result>
+        </action>
+        <action name="updateForm" class="action.BookAction" method="updateForm">
+            <result name="success" type="dispatcher">
+                <param name="location">/update.jsp</param>
+            </result>
+        </action>
+        <action name="logout" class="action.UserAction" method="logout">
+            <result name="input">login.jsp</result>
+        </action>
+      <!--  <action name="returnBook" class="action.LendAction" method="returnBook">
+            <result name="success" type="redirectAction">
+                <param name="actionName">lendedBook</param>
+            </result>
+            <result name="error" type="redirectAction">
+                <param name="actionName">lendedBook</param>
+            </result>
+        </action>-->
+<!--
+        <action name="upload" class="action.UploadAction" method="upload">
+            <result name="success">listBook.jsp</result>
+        </action>
+-->
+        <action name="readBookIntro" class="action.BookAction" method="readBookIntro">
+            <result name="success">readBookIntro.jsp</result>
+        </action>
+    </package>
+    <constant name="struts.multipart.saveDir" value="/tmp"></constant>
+</struts>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE validators PUBLIC 
+  		"-//Apache Struts//XWork Validator 1.0.2//EN"
+  		"http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+<validators>
+	<field name="book.title">
+		<field-validator type="requiredstring">
+			<message>书名不能为空</message>
+		</field-validator>
+	</field>
+	<field name="book.price">
+		<field-validator type="requiredstring">
+			<message>价格必须为大于十的整数！</message>
+		</field-validator>
+	</field>
+<!--	<field name="course.period">
+		<field-validator type="required">
+			<message>课程学时不能为空！</message>
+		</field-validator>
+		<field-validator type="int">
+			<param name="min">32</param>
+			<param name="max">72</param>
+			<message>学时必须在32至72之间</message>
+		</field-validator>
+	</field>-->
+</validators>  		

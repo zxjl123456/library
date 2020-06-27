@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="bean.Author" table="author">
+        <id name="name" type="java.lang.String" column="name">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="email" type="java.lang.String" column="email"></property>
+        <property name="tel" type="java.lang.String" column="tel"></property>
+    </class>
+</hibernate-mapping>

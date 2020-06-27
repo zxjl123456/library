@@ -1,0 +1,96 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="archive" name="unnamed.war">
+      <element id="javaee-facet-resources" facet="shiyan15/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="shiyan15" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Struts 2-2.5.14.1" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ognl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/log4j.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ojdbc14.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-io.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/freemarker.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ognl-3.0.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/derbyclient.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/struts2-core.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/freemarker-2.3.18.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.1-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/xwork-core-2.3.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/javassist-3.11.0.GA.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.3.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.7.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/struts2-dojo-plugin-2.3.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/struts2-json-plugin-2.3.1.2.jar" />
+          <element id="library" level="project" name="lib" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/asm.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jta.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jaas.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/ojdbc14.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/xml-apis.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/asm-attrs.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/cglib-2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/dom4j-1.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/hibernate3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/ognl-3.0.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/txw2-2.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/antlr-2.7.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/dom4j-2.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/ehcache-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/log4j-1.2.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/stax-ex-1.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/xerces-2.6.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/antlr-2.7.5H3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/ezmorph-1.0.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jaxb-api-2.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jdbc2_0-stdext.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/classmate-1.3.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/commons-io-2.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/commons-lang-2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jaxen-1.1-beta-4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/byte-buddy-1.10.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/freemarker-2.3.18.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/FastInfoset-1.2.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jandex-2.0.5.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jaxb-runtime-2.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/json-lib-2.1-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/xwork-core-2.3.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/javassist-3.11.0.GA.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/javassist-3.24.0-GA.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/struts2-core-2.3.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/commons-logging-1.0.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/commons-beanutils-1.7.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/commons-collections-3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/commons-fileupload-1.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/commons-collections-2.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/javax.persistence-api-2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jboss-logging-3.3.2.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/hibernate-core-5.4.8.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/javax.activation-api-1.2.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/struts2-dojo-plugin-2.3.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/struts2-json-plugin-2.3.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/hibernate-envers-5.4.8.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/istack-commons-runtime-3.0.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/hibernate-commons-annotations-5.1.0.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api-2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.40.jar" />
+          <element id="library" level="project" name="lib (2)" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/mysql-connector-java-5.1.41.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

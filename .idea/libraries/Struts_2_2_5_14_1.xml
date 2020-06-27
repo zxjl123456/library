@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Struts 2-2.5.14.1" type="struts2">
+    <properties version="2.5.14.1" />
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/web/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/web/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/web/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
